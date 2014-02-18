@@ -1,4 +1,4 @@
 ---
 :tddium:
-  :test_pattern:
-    - test.rb
+  :tests:
+    - ruby test.rb
