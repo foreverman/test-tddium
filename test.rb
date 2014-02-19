@@ -3,8 +3,8 @@ require 'selenium-webdriver'
 require 'capybara'
 require 'capybara-webkit'
 
-# Capybara.current_driver = :webkit
-Capybara.current_driver = :selenium
+Capybara.current_driver = :webkit
+# Capybara.current_driver = :selenium
 Capybara.app_host = 'http://www.google.com'
 Capybara.run_server = false
 
